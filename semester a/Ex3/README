@@ -1,0 +1,54 @@
+
+file: ex3a.cc 
+The progrram tell how much numbers it got and positive, nagtive numbers until it gets zero in 2 different lines
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+The progrram in the first line prints how  much numbers are in the serios and tells the agverage numbers.
+In the second row it prints how much positive and nagative it got. 
+The progrram stops when it gets the value zero.
+
+Compile: g++ -Wall ex3a.cc -o ex3a
+Run: ex3a
+
+input: different numbers, 1, 2, 5, -5, 0.
+output: 4 0.75
+	3 1
+		
+==============================================
+
+file: ex3b.cc 
+The progrram find two numbers for 1 to 1000 and finds its partner
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+the progrram calculate 2 numbers 1 to 1000 and find  when thyre both make the make number as the power of two for one numebr plus the pwoer of two to the seccond (that creat a diiferent number tha need to be to the power of 3) and another numbers as the power of 3: num to the power of 3 plus the second num to the power of 3 (that needs to be to the power of 2)
+
+Compile: g++ -Wall ex3b.cc -o ex3b
+Run: ex3b
+
+input: 
+output: 2 2 (2^2 + 2^2 = 2^3 / 2^3 + 2^3 = 4^2)
+	128 128 ( 128 ^ 2 + 128 ^2 = 32^ / 128 ^ 3 + 128 ^ 3 = 2048 ^ 2)
+
+==============================================
+
+file: ex3c.cc 
+Dinding if an israel id is correct
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+The progrram gets an id from the user and find out if its real or not
+it calculat it in an algoritem. it prints the number 1 if the id is real and 0 if not.
+
+
+Compile: g++ -Wall ex3c.cc -o ex3c
+Run: ex3c
+
+works:
+input: 318993847
+output: 1
+
+not working:
+input:7777777
+output: 0

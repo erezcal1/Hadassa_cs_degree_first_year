@@ -1,0 +1,18 @@
+file: ex0a.cc 
+The sum of the values ​​in a dynamic array
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets from the user how much line of numebr does he want to sum
+and build the amount of lines like he asked. then it asks for a numebrs to 
+put in the lines and evetually it sums all the lines and prints the sum.
+
+Compile: g++ -Wall ex1a.cc -o ex1a
+Run: ./ex1a
+
+input: number of lines and numbers to put in them
+
+output: the sum opf all the numebrs
+
+		
+==============================================

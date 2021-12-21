@@ -1,0 +1,61 @@
+file: ex6a.cc 
+Locate a row and column whose maximum sum of values ​​is
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets an arry in the size of 4 by 5 and serching for a row where 
+there biggest numbers are and after that it look at the coloms and serches for
+the biggest colom there is and prints them both one at a time at this order.
+
+Compile: g++ -Wall ex6a.cc -o ex6a
+Run: ./ex6a
+
+input: an array in the size of 4 rows and 5 coloms
+
+output: the biggest row and then the biggest colom
+
+		
+==============================================
+
+file: ex6b.cc 
+finding Equilateral triangles in a two-dimensional array
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets an array with 10 rows and 15 coloms and find if and where 
+there are tringles. if there are tringles it prints where they start and how 
+big are they if they are inverted or not, and at the end or the program 
+cheking the array it priints the biggest tringle and if there is more then 
+one it prints how much tiringles like this exist.
+The run time is ROWS * (COLS)^2 * base_of_triangle
+
+
+Compile: g++ -Wall ex6b.cc -o ex6b
+Run: ./ex6b
+
+input: an array with 10 rows and 15 coloms
+
+output: The tringles that the program find and how much of the biggest 
+        tringle there is.
+
+==============================================
+
+file: ex6c.cc 
+Find a common value in a row
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program serches for the most common number in a row and looks if there 
+are more number it skips it and if there isnt it prints the row the number 
+and how much time it showed it the row.
+The run time is (ROW * COLS) to the power of 2
+
+
+Compile: g++ -Wall ex6c.cc -o ex6c
+Run: ./ex6c
+
+
+input: an array in the size of 4 rows and 7 coloms
+
+output: The rows where you have the biggest time 
+        the amount of the number that is the most common in that row

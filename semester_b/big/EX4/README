@@ -1,0 +1,65 @@
+file: ex4a.cc 
+Finding a desired item in a two-way linked list
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program get numbers from the user and checks each one and print each time 
+the first positive from left, then the first positive from right, the first 
+prime form the left and the the right, and at the end it prints the first 
+palindrom from the start and then the first palindrom for the last place. 
+if the program didnt found a match it prints the numer 0 in each place 
+
+Compile: g++ -Wall ex4a.cc -o ex4a
+Run: ./ex4a
+
+input:  numbers until eof
+
+output: each time the correct numebr or 0 if the numebr isn't exist
+
+==============================================
+
+file: ex4b.cc 
+Statistics about student and about courses
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program ask for a numebrs for the student id and the agrade until -1. 
+it reads student until the end or 0 is entered. then the progrem gets numbers 
+for the courses id how much points it have and the hours of the course. after 
+all that the program calculate in a generic functions the average of all the 
+avarage of the grades for each student the avarege of the height the avarege 
+of the points in each courses and hours. at the end it prints the id of the 
+highst grade student and the cousrs with the hiest numebr of hours
+
+Compile: g++ -Wall ex4b.cc -o ex4b
+Run: ./ex4b
+
+input: number of the id grades until -1 and the num,ebr of course id points 
+       of it and hours
+
+output: the avareges all in on line with a space between each one
+
+==============================================
+
+file: ex4c.cc 
+Building an array, adding an organ, sorting and printing for different types 
+of structures
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program ask for a numebr 1 or 0 to find oyut what the user want to do. 
+and then there are a few options initializing the array print the arr sorting 
+the array with bubler sort read another or exut the frogram. each one does 
+different things. the initializing gets numebrs Date or Time until -1 is 
+put to him. print prints all the data put in to him. sort is sorting the 
+array by numebr from small to big. read another gets anothe time or date. 
+and exit realsing the array that has been used and exit the program 
+
+Compile: g++ -Wall ex4c.cc ex4c_given.cc -o ex4c
+Run: ./ex4c
+
+
+input: at the begginng 1 or 0 for date or time, and the number from 1-4 for 
+       the programs that i wrote above
+
+output: only the print has an put put of the artray that the user put in

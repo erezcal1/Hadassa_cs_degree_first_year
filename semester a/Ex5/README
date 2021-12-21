@@ -1,0 +1,56 @@
+file: ex5a.cc 
+Finds statistical information about an array.
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program program gets 6 numbers from the user and show stastic anomaly 
+on them. It finds the minimun value, the maximun value, the avareg numbers 
+in the array, miscellaneous values, and how much negative positive and zero 
+are in the arry.
+
+
+Compile: g++ -Wall ex5a.cc -o ex5a
+Run: ./ex5a
+
+input: 6 numbers in arry
+
+output: 7 diffrent numbers that show statistic numbers on the array.
+
+		
+==============================================
+
+file: ex5b.cc 
+Locating a cell in an array whose value is divided by those to our right, 
+and divides those to its left.
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program find the number that his value divide the numbers in 
+front and back to him. And prints -1 if it didnt find any number 
+that uphold the program.
+
+Compile: g++ -Wall ex5b.cc -o ex5b
+Run: ./ex5b
+
+input: Two numbers 
+
+output: arry number that uphold the program.
+        if the program didnt find any number it return -1.
+==============================================
+
+file: ex5c.cc 
+Displays a histogram of number instances in an array
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program prints a histogram of how much random numbers are divided 
+numbers from 2 and 6 and how much prime numebrs are int the array.
+Displays a histogram of number occurrences in the array
+
+Compile: g++ -Wall ex5c.cc histogram.cc -o ex5c
+Run: ./ex5c
+
+
+input: 2 numbers min and max for the random numbers to choose from
+
+output: histogram 

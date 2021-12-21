@@ -1,0 +1,69 @@
+file: ex0a.cc 
+File encryption
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets to files from the user and does only one this with it. 
+It take the file that needs to be encrypted and cheks every single char in 
+it to see if it needs to be replaced (The chars that need to be replaced 
+are only letters and letetrs that are found in pairs in the key file that 
+program got from the user). each letter is cheked in the key file if it found
+his pair it print the other letter of the pair if not it prints the current 
+one.
+It does that to the entire file.
+Every time the program prints it print it to the terminal as well as the file
+
+Compile: g++ -Wall ex0a.cc -o ex0a
+Run: ./ex0a
+
+input: 2 files, one key and one file to encrypt
+
+output: and output file with the encription
+
+		
+==============================================
+
+file: ex0b.cc 
+Decrypting a file encrypted by program a
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets to files. To each one of them it countes how many latters 
+are in the file and puts it with the letter in 2 diffrent arrays. Then it 
+sorts them with a buble sort. each time it move the number it moves the letter 
+to to keep the letter with the number it shoed in the array. For example the 
+most letter in the file will be at place number one in the array and so on. 
+Then The program need to switch the letters fore one file to another. 
+The letter with the most appereances in one file will switch with the letter 
+with th e most appereance letter in the other file. If 2 letters have the 
+same amount of appereances it prints the letters acording to the abc.
+
+Compile: g++ -Wall ex0b.cc -o ex0b
+Run: ./ex0b
+
+input: 2 files one to chage and one to count the letters
+
+output: print of the decript file to the terminal
+
+==============================================
+
+file: ex0c.cc 
+Merge of two files
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets 2 files and printing the the people with thire grades 
+acording to the abc. First of all the program compares the name of the 
+students if there names are similar it prints the name and the grade 
+from the first file and then skips the name in the second file and prints 
+only it grades. if the names are not similar it prints the line which goes 
+first on the abc. When it finishes one of the files it prints all the other 
+file.
+
+Compile: g++ -Wall ex0c.cc -o ex0c
+Run: ./ex0c
+
+
+input: 2 files with students name and grades sorted by the abc 
+
+output:1 file and printing to the terminal 2 files combined with the abc sort

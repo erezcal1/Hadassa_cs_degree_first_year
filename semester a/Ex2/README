@@ -1,0 +1,48 @@
+
+file: ex2a.cc 
+counting odd and even numbers in 2 deffrent lines
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+this program gets 3 number by the user and counting how much even and 
+odd numbers there is.
+
+Compile: g++ -Wall ex2a.cc -o ex2a
+Run: ex2a
+input: 4 numbers for example 1 2 3 4.
+
+output: 2 2
+		4 0 0
+		
+==============================================
+
+file: ex2b.cc 
+calculatin the highest number by multiplying and adding numbers.
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets 3 number and printing the highest 
+prossible outcome with the way. If needed with brackets as well.
+
+Compile: g++ -Wall ex2b.cc -o ex2b
+Run: ex2b
+
+Input: 3 numbers for example 3 5 7
+output: (3+5)*7=56
+
+==============================================
+
+file: ex2c.cc 
+gets a day a month and a year and prints the full date.
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets 3 numbers (day, month and year by this order)
+and prints the full date with words and the right addtion for the day
+and if the numbers are worng the program leaves without printing anything.
+
+Compile: g++ -Wall ex2c.cc -o ex2c
+Run: ex2c
+
+Input: 3 number (day, month and year) for exaple 12 3 2010
+Output: 12th march 2010

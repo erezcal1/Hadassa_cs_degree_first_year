@@ -1,0 +1,71 @@
+file: ex7a.cc 
+Basic operations on strings
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program gets 2 arrays one after the other and does with them two things.
+one is to taker the first array and  print the small letter in caps and big 
+and keep the like they are the program dosent print any other things like ! 
+and @.
+after the program prints all those things it moves to its second task witch 
+is to eliminate all the letters and symbols found in the first array for 
+example if the first array was 123abc and the second array was 123ab the print
+ will only be c
+
+
+Compile: g++ -Wall ex7a.cc -o ex7a
+Run: ./ex7a
+
+input: 2 differet arrays 
+
+output: only big latters from the first array
+        the letters and symbols that found in the first array but not in the 
+        second
+
+		
+==============================================
+
+file: ex7b.cc 
+Encryption and decryption
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program does two things 1 is fro encription and 2 is for decription. 
+the origram gets what you want to do encrip or decript and then gets a string
+from the user. at first it randomize a number from 1 to 3 and then acoordin 
+to the number she doose a couple of things 1. is to move every letter random 
+number of steps(acording to what it randomize at the begining) steps forword 
+in the abc 2. mirror the word again according to the number for example if it 
+randomize the number 4 it mirror the letter every 3 values in the string. 3. 
+adding a random latters in the string. if you chose to decrip it does al the 
+thing but in backword order: removing the random added letters, mirroring the 
+letters back and the at the end it moves back the letter to they supose to be.
+when you decript the number that is used to do all then thing is the last 
+digit you put in the string.
+
+Compile: g++ -Wall ex7b.cc -o ex7b
+Run: ./ex7b
+
+input: a number to encrip or to decript and the sentece
+
+output: the sentece after the encription or decription
+
+==============================================
+
+file: ex7c.cc 
+Check passwords
+========================================
+written by: Erez Calderon, Id: 318993847, LogIn: erezca
+
+This program checks if the password you enter are good acording to 
+the mandatory things you says that need to be in them
+
+Compile: g++ -Wall ex7c.cc -o ex7c
+Run: ./ex7c
+
+
+input: the numebr of password you want to check and then the passwords
+       then the number of mandatory things that need to be in then the 
+       madatory strings
+
+output: the passwords that are good
